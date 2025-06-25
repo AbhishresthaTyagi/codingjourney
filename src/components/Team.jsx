@@ -14,7 +14,7 @@ const Team = () => {
     {
       name: "Kartik Tyagi",
       role: "Backend Developer",
-      image: "/assets/kartik.jpg",
+      image: "/kartik.png",
       description: "Specialist in Node.js, Express, and MongoDB.",
     },
     {

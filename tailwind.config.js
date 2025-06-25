@@ -24,11 +24,16 @@ module.exports = {
         },
       },
       animation: {
+        fadeIn: "fadeIn 0.3s ease-out",
         "gradient-x": "gradientX 15s ease infinite",
         "float-slow": "floatY 6s ease-in-out infinite",
         "float-slower": "floatY 10s ease-in-out infinite",
       },
       keyframes: {
+        fadeIn: {
+          "0%": { opacity: "0", transform: "scale(0.9)" },
+          "100%": { opacity: "1", transform: "scale(1)" },
+        },
         gradientX: {
           "0%, 100%": { "background-position": "0% 50%" },
           "50%": { "background-position": "100% 50%" },
